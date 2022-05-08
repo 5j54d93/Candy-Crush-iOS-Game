@@ -11,14 +11,25 @@
 		9CF8B06B281D87700047510E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B06A281D87700047510E /* ContentView.swift */; };
 		9CF8B06D281D87710047510E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8B06C281D87710047510E /* Assets.xcassets */; };
 		9CF8B070281D87710047510E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8B06F281D87710047510E /* Preview Assets.xcassets */; };
+		9CF8B077281DA0B70047510E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B076281DA0B70047510E /* TitleView.swift */; };
+		9CF8B079281DA3390047510E /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B078281DA3390047510E /* DashBoardView.swift */; };
+		9CF8B07B281DA3850047510E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B07A281DA3850047510E /* TimerView.swift */; };
+		9CF8B07D281E3E0C0047510E /* GameGridsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B07C281E3E0C0047510E /* GameGridsView.swift */; };
+		9CF8B07F281E45A60047510E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B07E281E45A60047510E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C281ADB2827B36200E6585F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9CF8B065281D87700047510E /* Candy-Crush-iOS-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy-Crush-iOS-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF8B068281D87700047510E /* Candy_Crush_iOS_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_Crush_iOS_GameApp.swift; sourceTree = "<group>"; };
 		9CF8B06A281D87700047510E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CF8B06C281D87710047510E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF8B06F281D87710047510E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CF8B076281DA0B70047510E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		9CF8B078281DA3390047510E /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		9CF8B07A281DA3850047510E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9CF8B07C281E3E0C0047510E /* GameGridsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGridsView.swift; sourceTree = "<group>"; };
+		9CF8B07E281E45A60047510E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		9CF8B067281D87700047510E /* Candy-Crush-iOS-Game */ = {
 			isa = PBXGroup;
 			children = (
+				9C281ADB2827B36200E6585F /* Info.plist */,
 				9CF8B068281D87700047510E /* Candy_Crush_iOS_GameApp.swift */,
 				9CF8B06A281D87700047510E /* ContentView.swift */,
+				9CF8B076281DA0B70047510E /* TitleView.swift */,
+				9CF8B07A281DA3850047510E /* TimerView.swift */,
+				9CF8B078281DA3390047510E /* DashBoardView.swift */,
+				9CF8B07C281E3E0C0047510E /* GameGridsView.swift */,
+				9CF8B07E281E45A60047510E /* Game.swift */,
 				9CF8B06C281D87710047510E /* Assets.xcassets */,
 				9CF8B06E281D87710047510E /* Preview Content */,
 			);
@@ -137,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF8B07D281E3E0C0047510E /* GameGridsView.swift in Sources */,
+				9CF8B07B281DA3850047510E /* TimerView.swift in Sources */,
+				9CF8B07F281E45A60047510E /* Game.swift in Sources */,
 				9CF8B06B281D87700047510E /* ContentView.swift in Sources */,
+				9CF8B079281DA3390047510E /* DashBoardView.swift in Sources */,
 				9CF8B069281D87700047510E /* Candy_Crush_iOS_GameApp.swift in Sources */,
+				9CF8B077281DA0B70047510E /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +292,10 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Crush-iOS-Game/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Candy Crush";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +322,10 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Crush-iOS-Game/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Candy Crush";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
