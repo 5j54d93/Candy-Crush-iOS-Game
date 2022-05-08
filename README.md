@@ -1,5 +1,6 @@
 # Candy Crush iOS Game
 
+[![Swift](https://github.com/5j54d93/Candy-Crush-iOS-Game/actions/workflows/swift.yml/badge.svg)](https://github.com/5j54d93/Candy-Crush-iOS-Game/actions/workflows/swift.yml)
 [![GitHub license](https://img.shields.io/github/license/5j54d93/Candy-Crush-iOS-Game)](https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Candy-Crush-iOS-Game)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Candy-Crush-iOS-Game)
