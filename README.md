@@ -1,5 +1,10 @@
 # Candy Crush iOS Game
 
+[![GitHub license](https://img.shields.io/github/license/5j54d93/Candy-Crush-iOS-Game)](https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Candy-Crush-iOS-Game)
+![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Candy-Crush-iOS-Game)
+![Platform](https://img.shields.io/badge/platform-iOS｜iPadOS｜macOS-lightgrey)
+
 A Candy Crush like iOS game！Switch and match 3 or more in a row to get points and extra combos！
 
 > **iOS**：iPhone 13 Pro Max
