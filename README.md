@@ -9,7 +9,7 @@ A Candy Crush like iOS game！Switch and match 3 or more in a row to get points 
 
 > **iOS**：iPhone 13 Pro Max
 
-<img src="https://github.com/5j54d93/Number-Merge-iOS-Game/blob/main/.github/assets/LunchScreen.png" width='25%' height='100%'/>
+<img src="https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/.github/assets/LaunchScreen.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/.github/assets/GameStart.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/.github/assets/Playing.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Candy-Crush-iOS-Game/blob/main/.github/assets/GameStop.png" width='25%' height='100%'/>
 
 ## How To Play
 
